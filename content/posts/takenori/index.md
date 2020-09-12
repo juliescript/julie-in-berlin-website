@@ -26,6 +26,7 @@ Can't wait to go again.
 
 {{< img src="takenori_pancake.jpg" alt="Dessert at Takenori" >}}
 
+
 Rating: 5 of 5 Julies
 - Great food
 - Good prices
