@@ -1,5 +1,6 @@
 baseURL = "https://berlin.juliescript.dev/"
-languageCode = "es-mx"
+languageCode = "en"
+DefaultContentLanguage = "en"
 title = "Julie en Berlín"
 theme = "anatole"
 summarylength = 10
@@ -14,6 +15,8 @@ title = "Julie in Berlin"
 author = "Julieta Campos"
 description = "Rating places around Berlin that I have found through TikTok"
 profilePicture = "images/profile.png"
+images = ["images/profile.png"]
+mainSections = ["posts"]
 
 ## Social links
 
@@ -31,3 +34,17 @@ url = "https://www.instagram.com/juliescript"
 icon = "fa-twitter"
 title = "twitter"
 url = "https://www.twitter.com/juliescript"
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+  
